@@ -1,40 +1,40 @@
 #!/usr/bin/node
-/*
-get Star Wars characters from the Star Wars API
- */
 
 const request = require('request');
-const url = `https://swapi-api.alx-tools.com/api/films/${process.argv[2]}/`;
 
-if (isNaN(process.argv[2])) {
-  process.exit();
+if (process.argv.length !== 3 || isNaN(process.argv[2])) {
+  process.exit(1);
 }
+
+const filmId = process.argv[2];
+const url = `https://swapi-api.alx-tools.com/api/films/${filmId}/`;
 
 request(url, (error, response, body) => {
   if (error) {
     console.error(error);
-  } else {
-    charactersUrls = JSON.parse(body).characters;
-    characterNames = charactersUrls.map((url) => {
-      return new Promise((resolve, reject) => {
-        request(url, (error, response, body) => {
-          if (error) {
-            reject(error);
-          } else {
-            resolve(JSON.parse(body).name);
-          }
-        });
+    return;
+  }
+
+  const charactersUrls = JSON.parse(body).characters;
+  const characterPromises = charactersUrls.map((characterUrl) => {
+    return new Promise((resolve, reject) => {
+      request(characterUrl, (charError, charResponse, charBody) => {
+        if (charError) {
+          reject(charError);
+        } else {
+          resolve(JSON.parse(charBody).name);
+        }
       });
     });
+  });
 
-    Promise.all(characterNames)
-      .then((names) => {
-        names.forEach((name) => {
-          console.log(name);
-        });
-      })
-      .catch((error) => {
-        console.error(error);
+  Promise.all(characterPromises)
+    .then((names) => {
+      names.forEach((name) => {
+        console.log(name);
       });
-  }
+    })
+    .catch((promiseError) => {
+      console.error(promiseError);
+    });
 });
