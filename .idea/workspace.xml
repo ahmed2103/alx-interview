@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ea463d6-07c2-475b-af11-549efe152ee3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/0x00-pascal_triangle/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-pascal_triangle/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/0x04-utf8_validation/0-validate_utf8.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ihJKismtO6OGscWDFvBq95nm69" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.0-lockboxes.executor": "Run",
+    "Python.0-minoperations.executor": "Run",
+    "Python.0-nqueens.executor": "Run",
+    "Python.0-stats.executor": "Run",
+    "Python.0-validate_utf8.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "18.19.1",
+    "javascript.nodejs.core.library.typings.version": "18.19.43",
+    "last_opened_file_path": "/home/hasona/repos/alx-backend-javascript/0x01-ES6_promise/1-promise.js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/home/hasona/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/0x04-utf8_validation" />
+      <recent name="$PROJECT_DIR$/0x03-log_parsing" />
+      <recent name="$PROJECT_DIR$/0x01-lockboxes" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ea463d6-07c2-475b-af11-549efe152ee3" name="Changes" comment="" />
+      <created>1719936813644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719936813644</updated>
+      <workItem from="1719936814653" duration="14000" />
+      <workItem from="1719936835490" duration="5969000" />
+      <workItem from="1720002555828" duration="4000" />
+      <workItem from="1720094925873" duration="179000" />
+      <workItem from="1720473534564" duration="2249000" />
+      <workItem from="1720512312182" duration="23000" />
+      <workItem from="1721147777907" duration="7902000" />
+      <workItem from="1721206081275" duration="2433000" />
+      <workItem from="1721637987197" duration="4822000" />
+      <workItem from="1721667097392" duration="1031000" />
+      <workItem from="1721713754802" duration="810000" />
+      <workItem from="1721725611682" duration="6000" />
+      <workItem from="1721731229290" duration="116000" />
+      <workItem from="1721733463255" duration="15000" />
+      <workItem from="1722245944670" duration="669000" />
+      <workItem from="1722260052775" duration="1556000" />
+      <workItem from="1722337689827" duration="19000" />
+      <workItem from="1722427393342" duration="6085000" />
+      <workItem from="1722494853512" duration="139000" />
+      <workItem from="1722963127906" duration="3226000" />
+      <workItem from="1722970697934" duration="5782000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/alx_interview$0_stats.coverage" NAME="0-stats Coverage Results" MODIFIED="1721207349775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x03-log_parsing" />
+    <SUITE FILE_PATH="coverage/alx_interview$0_lockboxes.coverage" NAME="0-lockboxes Coverage Results" MODIFIED="1719942664502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x01-lockboxes" />
+    <SUITE FILE_PATH="coverage/alx_interview$0_validate_utf8.coverage" NAME="0-validate_utf8 Coverage Results" MODIFIED="1721714129843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x04-utf8_validation" />
+    <SUITE FILE_PATH="coverage/alx_interview$0_minoperations.coverage" NAME="0-minoperations Coverage Results" MODIFIED="1720475445089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x02-minimum_operations" />
+    <SUITE FILE_PATH="coverage/alx_interview$0_nqueens.coverage" NAME="0-nqueens Coverage Results" MODIFIED="1722432765264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x05-nqueens" />
+  </component>
+</project>
