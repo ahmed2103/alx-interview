@@ -5,6 +5,7 @@ and chosen nums"""
 def isWinner(x, nums):
     """returns the winner the winner"""
     def sieve_of_eratosthenes(n):
+        """marks primes as true"""
         primes = [True] * (n + 1)
         primes[0] = primes[1] = False
         for i in range(2, int(n**0.5) + 1):
@@ -14,6 +15,7 @@ def isWinner(x, nums):
         return primes
 
     def determine_winner(n):
+        """ determine the winner for a round"""
         primes = sieve_of_eratosthenes(n)
         prime_count = sum(primes)
         return "Maria" if prime_count % 2 == 1 else "Ben"
@@ -37,3 +39,4 @@ def isWinner(x, nums):
         return "Ben"
     else:
         return None
+print("Winner: {}".format(isWinner(1, [1])))
