@@ -1,4 +1,9 @@
+#!/usr/bin/python3
+"""Algoritm to determine the winner of the primegame for given rounds
+and chosen nums"""
+
 def isWinner(x, nums):
+    """returns the winner the winner"""
     def sieve_of_eratosthenes(n):
         primes = [True] * (n + 1)
         primes[0] = primes[1] = False
