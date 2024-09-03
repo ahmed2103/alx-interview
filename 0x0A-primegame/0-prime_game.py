@@ -2,6 +2,7 @@
 """Algoritm to determine the winner of the primegame for given rounds
 and chosen nums"""
 
+
 def isWinner(x, nums):
     """returns the winner the winner"""
     def sieve_of_eratosthenes(n):
