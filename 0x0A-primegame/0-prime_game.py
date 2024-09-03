@@ -10,7 +10,7 @@ def isWinner(x, nums):
 
     def determine_winner(n):
         primes = sieve_of_eratosthenes(n)
-        prime_count = max(primes)
+        prime_count = sum(primes)
         return "Maria" if prime_count % 2 == 1 else "Ben"
 
     if not nums or x != len(nums):
