@@ -5,38 +5,21 @@ and chosen nums"""
 
 def isWinner(x, nums):
     """returns the winner the winner"""
-    def sieve_of_eratosthenes(n):
-        """marks primes as true"""
-        primes = [True] * (n + 1)
-        primes[0] = primes[1] = False
-        for i in range(2, int(n**0.5) + 1):
-            if primes[i]:
-                for j in range(i*i, n+1, i):
-                    primes[j] = False
-        return primes
-
-    def determine_winner(n):
-        """ determine the winner for a round"""
-        primes = sieve_of_eratosthenes(n)
-        prime_count = sum(primes)
-        return "Maria" if prime_count % 2 == 1 else "Ben"
-
-    if not nums or x != len(nums):
+    if x < 1 or not nums:
         return None
-
-    maria_wins = 0
-    ben_wins = 0
-
-    for n in nums:
-        winner = determine_winner(n)
-        if winner == "Maria":
-            maria_wins += 1
-        else:
-            ben_wins += 1
-
-    if maria_wins > ben_wins:
-        return "Maria"
-    elif ben_wins > maria_wins:
-        return "Ben"
-    else:
+    marias_wins, bens_wins = 0, 0
+    n = max(nums)
+    primes = [True for _ in range(1, n + 1, 1)]
+    primes[0] = False
+    for i, is_prime in enumerate(primes, 1):
+        if i == 1 or not is_prime:
+            continue
+        for j in range(i * i, n + 1, i):
+            primes[j - 1] = False
+    for _, n in zip(range(x), nums):
+        primes_count = sum(primes[:n])
+        bens_wins += primes_count % 2 == 0
+        marias_wins += primes_count % 2 == 1
+    if marias_wins == bens_wins:
         return None
+    return 'Maria' if marias_wins > bens_wins else 'Ben'
